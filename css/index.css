@@ -1,0 +1,186 @@
+/*对背景图和导航栏的*/
+#indexbg{
+    background-size:contain;
+    height:900px;
+    width:1700px;
+    margin-bottom:60px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#logotop{
+    padding-left:30px;
+    background-color:#348684;
+    height:60px;
+    padding-right:400px;
+}
+#nav{
+    width: 1700px;
+    height:60px;
+    background-color: #348684;
+    position:fixed;
+    z-index:10;
+    margin-top:0;
+    left:50%;
+    margin-left:-850px;
+}
+*{
+    padding:0;
+    margin:0;
+    position:relative;
+}
+li{
+    float:left;
+}
+.navli{
+    list-style-type:none;
+    width: 160px;
+    height:60px;
+    line-height: 60px;
+    background: #348684;
+    font-family:"微软雅黑 Light";
+    color:white;
+    font-weight: bold;
+    align: center;
+    text-align: center;
+    border-left:2px solid #499693;
+}
+.navli:hover{
+    background-color: #54aeaa;
+    color:white;
+}
+#login{font-weight: normal;padding-left:10px;width:80px;}
+#register{font-weight: normal;border:none;width:80px;}
+#login:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+#register:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+
+
+/*对教师和学生使用场景的*/
+.landr{
+    width:1700px;
+    height:500px;
+    margin:20px auto;
+    margin-top:50px;
+}
+.left{
+    width:600px;
+    height:400px;
+    float:left;
+    margin-left:180px;
+    margin-top:50px;
+}
+.leftimg{
+    width:500px;
+    height:360px;
+    float:left;
+    margin-top:8px;
+    margin-left:15px;
+    text-align: center;
+}
+.righttext{
+    width:220px;
+    height:180px;
+    float:right;
+    margin-top:70px;
+    margin-left:-180px;
+    background-color: rgba(255, 255, 255, 0.97);
+    font-size:20px;
+    color:#348684;
+    box-shadow: 1px 1px 2px 2px #e6f8fa;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 10px;
+}
+.right{
+    width:600px;
+    height:400px;
+    float:right;
+    margin-right:180px;
+    margin-top:50px;
+}
+#greenbg{
+    margin-bottom: -500px;
+    position:sticky;
+    z-index:1;
+}
+
+/*优势和创新部分*/
+#container {
+    width:1700px; /* 设置容器宽度 */
+    height: 930px; /* 设置容器高度 */
+    margin: 0 auto; /* 水平居中 */
+    background-color: #f7fcfc;
+    margin-top:50px;
+}
+#conversation{
+    border:2px solid #559d9b;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 4px #a1e0e7;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    transform: translate(-50%, -50%); /* 图片居中 */
+}
+#conversation:hover{border:2px solid #35dedb;
+    box-shadow: 2px 2px 4px 4px #9afffd;
+}
+.sub-image{
+    position:absolute;
+    border:2px solid #bfdada;
+    box-shadow: 1px 1px 2px 2px #e5f5f6;
+}
+.sub-image:hover{
+    transform:scale(1.1);
+    box-shadow: 8px 8px 8px 8px #e5f5f6;
+}
+#text{
+    background-color: rgba(255, 255, 255, 0.9);
+    top:280px;
+    right:180px;
+    width:700px;
+    height:300px;
+    padding:20px;
+    border:2px solid #7dbebd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px #d3eef1;
+}
+#text:hover{border:2px solid #35dedb;
+    box-shadow: 2px 2px 4px 4px #9AFFFDFF;
+    transform:scale(1.01);
+}
+#resource{ top: 30px; right: 400px;}
+#userManagement{ top: 80px; right:200px }
+#siteManagement{ bottom: 60px; right: 420px; }
+#lessonManagement{ bottom: 20px; right: 50px; }
+#exam{ bottom: 40px; left: 400px; }
+#grade{ bottom: 50px; right: 800px; }
+#homework{ bottom: 50px; left: 100px; }
+
+
+
+
+
+
+
+
+/*底部*/
+#indexbottom{
+    width:1700px;
+    height:200px;
+    margin-top:100px;
+    background-color:#348684;
+    left:50%;
+    margin-left:-850px;
+}
+#logobottom{
+    width: 170px;
+    height:80px;
+    margin-top:30px;
+    margin-left:80px;
+}

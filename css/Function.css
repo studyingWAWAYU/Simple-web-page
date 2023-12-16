@@ -1,0 +1,175 @@
+/*导航栏*/
+#logotop{
+    padding-left:30px;
+    background-color:#348684;
+    height:60px;
+    padding-right:400px;
+}
+#nav{
+    width: 1700px;
+    height:60px;
+    background-color: #348684;
+    position:fixed;
+    z-index:10;
+    margin-top:0;
+    left:50%;
+    margin-left:-850px;
+}
+*{
+    padding:0;
+    margin:0;
+    position:relative;
+}
+li{
+    float:left;
+}
+.navli{
+    list-style-type:none;
+    width: 160px;
+    height:60px;
+    line-height: 60px;
+    background: #348684;
+    font-family:"微软雅黑 Light";
+    color:white;
+    font-weight: bold;
+    align: center;
+    text-align: center;
+    border-left:2px solid #499693;
+}
+.navli:hover{
+    background-color: #54aeaa;
+    color:white;
+}
+#login{font-weight: normal;padding-left:10px;width:80px;}
+#register{font-weight: normal;border:none;width:80px;}
+#login:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+#register:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+
+
+#FunctionContainer{
+    width:1700px;
+    height:1700px;
+    display: block;
+    margin:auto;
+}
+
+#lefttext{
+    width:500px;
+    height:500px;
+}
+
+/*轮播图片*/
+#computerBorder{
+    position: absolute;
+    width:1000px;
+    height:600px;
+    top:100px;
+    left:70px;
+}
+#alternatePlay{
+    position:absolute;
+    width:575px;
+    height:345px;
+    top:155px;
+    left:231px;
+}
+#leftbtn{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:320px;
+    left:235px;
+}
+#rightbtn{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:320px;
+    left:770px;
+}
+#box{
+    width:1000px;
+    height:700px;
+    margin-left:70px;
+}
+
+#upbox{
+    width:750px;
+    height:150px;
+    margin-top:-470px;
+    margin-left:920px;
+}
+#midbox{
+    width:750px;
+    height:150px;
+    margin-top:-25px;
+    margin-left:920px;
+}
+#lowbox{
+    width:750px;
+    height:150px;
+    margin-top:-25px;
+    margin-left:920px;
+}
+.allFunctions{
+    float:left;
+    width:145px;
+    height:150px;
+    margin-top:-50px;
+    padding-top:18px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border:1px solid #75c5c1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #cce1e0;
+}
+.allFunctions:hover{
+    z-index: 9;
+}
+
+#coreFunctionsBox{
+    width:1700px;
+    height:700px;
+    margin-top:250px;
+}
+.coreFunctions{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:1px solid #8cccc9;
+    border-radius:300px;
+    box-shadow: 2px 2px 4px 4px #d6ecea;
+    padding-top:100px;
+    padding-left:50px;
+    padding-right:50px;
+    transition: left 1s ease-out, bottom 1s ease-out;
+    background-color: white;
+}
+#bgimg{
+    width:1700px;
+    height:850px;
+    margin-bottom: -1025px;
+
+}
+
+/*底部*/
+#indexbottom{
+    width:1700px;
+    height:200px;
+    margin-top:100px;
+    background-color:#348684;
+    left:50%;
+    margin-left:-850px;
+}
+#logobottom{
+    width: 170px;
+    height:80px;
+    margin-top:30px;
+    margin-left:80px;
+}
+

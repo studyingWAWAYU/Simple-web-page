@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology</title>
+    <link rel="stylesheet" type="text/css" href="../css/Technology.css">
+</head>
+<body>
+<div id="nav">
+    <ul style="list-style: none">
+        <li><div id="logotop"><a href="index.html"><img src="../img/logotop.jpg" width="110" height="60"></a></div></li>
+        <a href="index.html"><li class="navli">首页</li></a>
+        <a href="Function.html"><li class="navli">产品功能</li></a>
+        <a href="Technology.html"><li class="navli">技术介绍</li></a>
+        <a href="Price.html"><li class="navli">会员定价</li></a>
+        <a href="Instance.html"><li class="navli">用户案例</li></a>
+        <a href="Developers.html"><li class="navli">开发团队</li></a>
+        <a href="Login.html"><li class="navli" id="login">登录</li></a>
+        <a href="Register.html"><li class="navli" id="register">注册</li></a>
+    </ul>
+</div>
+
+
+<div id="upcontainer">
+    <div id="logo">
+    <img src="../img/Technology/sakaiLogo.png" width="270px" height="80px;">
+    </div>
+
+    <div id="introductiontext">
+        <p style="font-size:30px;">智汇系统是基于<a href="https://www.sakailms.org/">Sakai</a>平台搭建的</p>
+            <p style="font-size:22px;">源码取自 <a href="https://github.com/sakaiproject/sakai">https://github.com/sakaiproject/sakai</a></p>
+            <p style="font-size:26px;">通过添加以下功能扩展了原有的讨论区：</p>
+    </div>
+</div>
+
+<div id="lowcontainer">
+<img src="../img/Technology/Techbg.png" id="Techbg">
+    <img class="gifs" id="merge" src="../img/Technology/merge.gif">
+    <img class="gifs" id="tag" src="../img/Technology/tag.gif">
+    <img class="gifs" id="write" src="../img/Technology/write.gif">
+    <img class="gifs" id="filter" src="../img/Technology/filter.gif">
+    <p class="title" id="titlemerge">语义分析合并相似问题</p>
+    <p class="title" id="titletag">文本摘要和标签化分类</p>
+    <p class="title" id="titlewrite">个人见解优先设计</p>
+    <p class="title" id="titlefilter">敏感词过滤</p>
+    <p class="content" id="contentmerge">基于chinese-roberta-wwm-ext-base模型来计算语义相似度<br>
+        <font style="font-size:14px;">参考于:https://huggingface.co/IDEA-CCNL/Erlangshen-Roberta-110M-Similarity</font>
+    </p>
+    <p class="content" id="contenttag">基于TextRank4ZH进行文本摘要和关键字提取<br>
+        <font style="font-size:14px;">参考于:https://github.com/letiantian/TextRank4ZH</font>
+    </p>
+    <p class="content" id="contentwrite">利用权限设置要求学生在查看他人评论之前，先发表自己的个人见解。
+    </p>
+    <p class="content" id="contentfilter">基于DFA 算法检测敏感词并过滤<br>
+        <font style="font-size:14px;">参考于:https://github.com/houbb/sensitive-word</font>
+    </p>
+</div>
+
+
+
+
+<!--底部-->
+<div id="indexbottom">
+    <img id="logobottom" src="../img/logobottom.png">
+    <div style="margin-left:80px;margin-top:20px;">
+        <ul style="float:left;list-style-type: none;">
+            <li><p style="color:white;"><img src="../img/icon.gif" width="30px" height="30px;" align="center"> 智汇</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/location.gif" width="30px" height="30px;" align="center"> 佛山市，广东省，中国</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/phone.gif" width="25px" height="25px;" align="center"> 189-280-54749</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/email.gif" width="30px" height="30px;" align="center"> zhihui@jules.ntesmail.com</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/copyright.gif" width="30px" height="30px;" align="center"> 2023 ZhiHui. All rights reserved.</p></li>
+        </ul>
+
+    </div>
+</div>
+</body>
+</html>

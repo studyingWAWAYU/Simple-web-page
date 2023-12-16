@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="../css/Register.css">
+    <script src="../js/Register.js"></script>
+</head>
+<body>
+<div id="nav">
+    <ul style="list-style: none">
+        <li><div id="logotop"><a href="index.html"><img src="../img/logotop.jpg" width="110" height="60"></a></div></li>
+        <a href="index.html"><li class="navli">首页</li></a>
+        <a href="Function.html"><li class="navli">产品功能</li></a>
+        <a href="Technology.html"><li class="navli">技术介绍</li></a>
+        <a href="Price.html"><li class="navli">会员定价</li></a>
+        <a href="Instance.html"><li class="navli">用户案例</li></a>
+        <a href="Developers.html"><li class="navli">开发团队</li></a>
+        <a href="Login.html"><li class="navli" id="login">登录</li></a>
+        <a href="Register.html"><li class="navli" id="register">注册</li></a>
+    </ul>
+</div>
+
+<div id="RegisterContainer">
+
+<img src="../img/LandRbg.png" id="loginBg">
+<div id="RegisterTable">
+    <form methond="get">
+        <img src="../img/Welcome.png" style="margin-left: -50px;padding-bottom:70px;padding-top:20px;">
+        <div id="loginTitle"><h1 style="padding-left: 150px;padding-bottom:15px;padding-top:10px;">注册</h1></div>
+        <table  align="center">
+            <tr>
+                <td width="80px;"><p style="font-size:18px;"> 用 户 名 ：</p></td>
+                <td><input type="text" placeholder="请创建用户名" id="username" style="width:250px;height:25px;border:1px solid #368785;padding:5px;"/></td>
+                <span id="UsernameError" style="position:absolute;left:430px;top:117px;color:red;"></span>
+            </tr>
+            <tr>
+                <td width="80px;"><p style="font-size:18px;">密 &nbsp; &nbsp;码：</p></td>
+                <td><input type="password" id="password" placeholder="请输入5-16位的密码" style="width:250px;height:25px;border:1px solid #368785;padding:5px;"/></td>
+                <span id="PwdError" style="position:absolute;left:430px;top:180px;color:red;"></span>
+            </tr>
+            <tr>
+                <td width="90px;"><p style="font-size:18px;">确认密码：</p></td>
+                <td><input type="password" id="repassword" style="width:250px;height:25px;border:1px solid #368785;padding:5px;"/></td>
+                <span id="RePwdError" style="position:absolute;left:430px;top:240px;color:red;"></span>
+            </tr>
+            <tr>
+                <td width="80px;"><p style="font-size:18px;">身 &nbsp; 份：</p></td>
+                <td><input type="radio" name="roles" value="teacher" style="width:17px;height:17px; vertical-align:middle; margin:0;">&nbsp; 教师 &nbsp;
+                    <input type="radio" name="roles" value="student"  style="width:17px;height:17px;vertical-align:middle; margin:0;" checked="checked"> &nbsp; 学生</td>
+            </tr>
+        </table>
+        <input type="button" value="注册" id="reg" align="center" onclick="register()">
+    </form>
+</div>
+
+
+
+<!--底部-->
+<div id="indexbottom">
+    <img id="logobottom" src="../img/logobottom.png">
+    <div style="margin-left:80px;margin-top:20px;">
+        <ul style="float:left;list-style-type: none;">
+            <li><p style="color:white;"><img src="../img/icon.gif" width="30px" height="30px;" align="center"> 智汇</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/location.gif" width="30px" height="30px;" align="center"> 佛山市，广东省，中国</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/phone.gif" width="25px" height="25px;" align="center"> 189-280-54749</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/email.gif" width="30px" height="30px;" align="center"> zhihui@jules.ntesmail.com</p></li>
+            <li style="padding-left: 100px;"><p style="color:white;"><img src="../img/copyright.gif" width="30px" height="30px;" align="center"> 2023 ZhiHui. All rights reserved.</p></li>
+        </ul>
+
+    </div>
+</div>
+</div>
+</body>
+</html>

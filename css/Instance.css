@@ -1,0 +1,126 @@
+/*导航栏*/
+#logotop{
+    padding-left:30px;
+    background-color:#348684;
+    height:60px;
+    padding-right:400px;
+}
+#nav{
+    width: 1700px;
+    height:60px;
+    background-color: #348684;
+    position:fixed;
+    z-index:10;
+    margin-top:0;
+    left:50%;
+    margin-left:-850px;
+}
+*{
+    padding:0;
+    margin:0;
+    position:relative;
+}
+li{
+    float:left;
+}
+.navli{
+    list-style-type:none;
+    width: 160px;
+    height:60px;
+    line-height: 60px;
+    background: #348684;
+    font-family:"微软雅黑 Light";
+    color:white;
+    font-weight: bold;
+    align: center;
+    text-align: center;
+    border-left:2px solid #499693;
+}
+.navli:hover{
+    background-color: #54aeaa;
+    color:white;
+}
+#login{font-weight: normal;padding-left:10px;width:80px;}
+#register{font-weight: normal;border:none;width:80px;}
+#login:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+#register:hover{
+    background-color: #348684;
+    font-weight: bold;
+}
+
+
+#InstanceContainer{
+    width:1700px;
+    height:1000px;
+    display:block;
+    margin:auto;
+}
+#user1{
+    width:580px;
+    height:550px;
+    position:absolute;
+    left:200px;
+    top:200px;
+}
+#user2{
+    width:580px;
+    height:550px;
+    position:absolute;
+    left:1020px;
+    top:200px;
+}
+#user3{
+    width:580px;
+    height:550px;
+    position:absolute;
+    left:600px;
+    top:550px;
+}
+
+.border{
+    width:500px;
+    height:500px;
+    position: absolute;
+}
+
+#border2{transform:rotate(-5deg)}
+#border3{transform:rotate(5deg)}
+
+.img{
+    width:140px;
+    height:180px;
+    position:absolute;
+    border:10px solid white;
+    box-shadow: 1px 1px 2px 2px #eeeeee;
+}
+#girl{left:380px;transform:rotate(5deg);}
+#boy{left:350px;top:5px;transform:rotate(2deg);}
+#teacher{left:340px;top:5px;transform:rotate(-1deg);}
+
+.text{
+    position:absolute;
+    width:250px;
+    height:500px;
+}
+#text1{left:70px;top:150px;}
+#text2{left:90px;top:120px;;transform:rotate(-5deg)}
+#text3{left:60px;top:150px;transform:rotate(5deg)}
+
+/*底部*/
+#indexbottom{
+    width:1700px;
+    height:200px;
+    margin-top:200px;
+    background-color:#348684;
+    left:50%;
+    margin-left:-850px;
+}
+#logobottom{
+    width: 170px;
+    height:80px;
+    margin-top:30px;
+    margin-left:80px;
+}
