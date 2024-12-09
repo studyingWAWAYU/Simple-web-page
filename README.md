@@ -27,7 +27,7 @@
 @studyingWAWAYU
 
 ### 贡献
-Feel free to dive in Open an issue or submit PRs.  
+Feel free to dive in, open an issue or submit PRs.  
 Simple-web-page follows the Contributor Covenant Code of Conduct.
 
 ### 许可证
